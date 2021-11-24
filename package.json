@@ -1,0 +1,20 @@
+{
+  "name": "Tech-Task",
+  "version": "1.0.0",
+  "description": "Tech-Task E2E Test",
+  "main": "index.js",
+  "scripts": {
+    "open": "node_modules/.bin/cypress open",
+    "test": "npx cypress run"
+  },
+  "keywords": [],
+  "author": "Mushed Miah",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^9.1.0",
+    "cypress-cucumber-preprocessor": "^4.3.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
